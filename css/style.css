@@ -1,0 +1,57 @@
+/*utilities*/
+body {
+    font-weight: 500;
+}
+h2 {
+    font-size: 64px;
+    line-height: 75px;
+}
+p {
+    font-style: 24px;
+    line-height: 42px;
+    font-weight: 500;
+}
+.textCenter {
+    text-align: center;
+}
+.d-flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.align-items-center {
+    align-items: center;
+}
+.italic {
+    font-style: italic;
+}
+/*header*/
+.header {
+    background: url(../images/banner.png) center center no-repeat;
+    height: 100vh;
+    width: auto;
+    color: #ffffff;
+}
+.headerIntro h1 {
+    font-size: 80px;
+    line-height: 94px;
+    font-weight: 800;
+    padding-bottom: 32px;
+}
+
+.socialIcon {
+    margin-top: 48px;
+}
+.socialIcon img {
+    padding: 0 8px;
+}
+/*about*/
+.about {
+    padding: 64px 0 56px 0;
+}
+.about img {
+    padding-top: 40px;
+}
