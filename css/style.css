@@ -1,6 +1,8 @@
 /*utilities*/
 body {
+    font-family: 'Roboto', '微軟正黑體', 'sans-serif';
     font-weight: 500;
+    font-style: italic;
 }
 h2 {
     font-size: 64px;
@@ -9,7 +11,9 @@ h2 {
 p {
     font-style: 24px;
     line-height: 42px;
-    font-weight: 500;
+}
+.bold {
+    font-weight: bold;
 }
 .textCenter {
     text-align: center;
@@ -17,16 +21,25 @@ p {
 .d-flex {
     display: flex;
     align-items: center;
+}
+.column {
     flex-direction: column;
 }
 .justify-content-center {
     justify-content: center;
 }
+.justify-space-around {
+    justify-content: space-around;
+}
 .align-items-center {
     align-items: center;
 }
-.italic {
-    font-style: italic;
+.text-center {
+    text-align: center;
+}
+.w-1200 {
+    width: 1200px;
+    margin: 0 auto;
 }
 /*header*/
 .header {
@@ -54,4 +67,64 @@ p {
 }
 .about img {
     padding-top: 40px;
+}
+.about p {
+    font-size: 24px;
+    line-height: 42px;
+    margin-bottom: 8px;
+}
+.circle {
+    width: 22px;
+    height: 22px;
+    background: #981818;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+.about ul {
+    margin: 32px 0 52px 0;
+}
+.about li {
+    display: flex;
+    align-items: center;
+}
+/*brand*/
+.brand {
+    background: #000000;
+    color: #fff;
+    padding: 64px 0 160px 0;
+}
+.brand h2 {
+    margin-bottom: 16px;
+}
+.brand p {
+    margin-bottom: 32px;
+}
+.brand-img1 {
+    margin-bottom: 40px;
+}
+/*Other Works*/
+.other {
+    padding-top: 64px;
+}
+.other p {
+    padding: 24px 0 48px 0;
+}
+.other-bg {
+    background: url(../images/other-bg.png) no-repeat center bottom;
+    margin-top: 80px;
+    color: #fff;
+    padding-bottom: 162px;
+}
+.image-top {
+    position: relative;
+    top: -80px;
+}
+/*contact*/
+.contact {
+    background: #000000;
+    color: #fff;
+    padding: 64px 0 80px 0;
+}
+.contact p {
+    margin-top: 16px;
 }
