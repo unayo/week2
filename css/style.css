@@ -9,7 +9,7 @@ h2 {
     line-height: 75px;
 }
 p {
-    font-style: 24px;
+    font-size: 24px;
     line-height: 42px;
 }
 .bold {
@@ -69,8 +69,6 @@ p {
     padding-top: 40px;
 }
 .about p {
-    font-size: 24px;
-    line-height: 42px;
     margin-bottom: 8px;
 }
 .circle {
